@@ -1,13 +1,18 @@
-import Header from "./components/Header";
-import Hero from "./components/Hero";
+import React from "react";
+import { BrowserRouter, Route, Router, Routes } from "react-router-dom";
 import HomePage from "./pages/HomePage";
+import Header from "./components/Header";
+import Upcoming from "./pages/Upcoming";
 
 function App() {
   return (
-    <>
+    <BrowserRouter>
       <Header />
-      <HomePage />
-    </>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/upcoming" element={<Upcoming />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
