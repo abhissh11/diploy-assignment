@@ -57,7 +57,7 @@ export default function Features() {
   return (
     <div className="my-10 mx-5">
       <div className="flex flex-col gap-4 items-center">
-        <h1 className="text-5xl font-bold text-center leading-normal">
+        <h1 className="text-3xl md:text-5xl font-bold text-center leading-normal">
           Next-generation <br />
           applications
         </h1>
