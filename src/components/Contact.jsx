@@ -1,4 +1,4 @@
-import { CircleUserRound, Sparkle, SparkleIcon, Sparkles } from "lucide-react";
+import { CircleUserRound, Sparkles } from "lucide-react";
 import React from "react";
 import { Link } from "react-router-dom";
 
@@ -20,7 +20,7 @@ export default function Contact() {
           deployable solution, you can save upto 90% cost & time.
         </p>
         <Link to="https://www.linkedin.com/in/abhishekkr-dev/" target="_blank">
-          <button className="max-w-[20rem] md:max-w-xl justify-center  text-xl font-semibold px-5 py-2 bg-violet-600 rounded-md flex flex-row  gap-2 text-white items-center">
+          <button className="max-w-[20rem] md:max-w-xl justify-center  text-xl font-semibold px-5 py-2 bg-violet-600 hover:bg-violet-800 rounded-md flex flex-row  gap-2 text-white items-center">
             <span>
               <CircleUserRound size={20} />
             </span>
