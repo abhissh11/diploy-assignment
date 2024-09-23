@@ -4,7 +4,7 @@ import hero from "../assets/site-invention-gif.gif";
 
 export default function Hero() {
   return (
-    <div className="mx-5 md:mx-20 flex flex-col gap-4 md:flex-row md:justify-between justify-evenly items-center h-svh">
+    <div className="pt-20 mx-5 md:mx-20 flex flex-col gap-4 md:flex-row md:justify-between justify-evenly items-center h-svh">
       <div className="flex flex-col md:items-start items-center justify-center">
         <div className="flex flex-col gap-4 items-center md:items-start mt-10 md:mt-0">
           <h1 className="md:hidden text-3xl leading-relaxed font-bold text-center">
