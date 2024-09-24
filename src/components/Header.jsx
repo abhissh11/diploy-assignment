@@ -11,7 +11,7 @@ export default function Header() {
   };
   return (
     <>
-      <div className=" flex justify-between items-center py-4 px-4 md:px-8 shadow-md fixed w-screen bg-white">
+      <div className="z-20 flex justify-between items-center py-4 px-4 md:px-8 shadow-md fixed w-screen bg-white">
         <div className="flex gap-2 items-center">
           <Menu
             size={26}
